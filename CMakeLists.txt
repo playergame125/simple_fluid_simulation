@@ -27,3 +27,10 @@ else()
     add_executable(fluidssimulator main.cpp)
     target_link_libraries(fluidssimulator PRIVATE PkgConfig::SDL3)
 endif()
+
+add_custom_target(run
+    COMMAND ./fluidssimulator
+    WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
+    DEPENDS fluidssimulator
+    COMMENT "Running fluidssimulator"
+)
