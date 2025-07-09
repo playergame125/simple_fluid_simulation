@@ -1,0 +1,8 @@
+# Ignore the build directory completely
+/build/
+
+# Ignore CMake generated files in the root (if any)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
