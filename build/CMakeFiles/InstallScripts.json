@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build/cmake_install.cmake"
+		"/home/matteo/proggetti_c++/simple_fluid_simulation/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.16)
-project(fluidssimulator)
+project(fluidssimulator C)  # Specify C language here
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
 
 # Output binary in build/
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
@@ -17,14 +17,14 @@ if(WIN32)
     endif()
 
     include_directories(${SDL3_INCLUDE_DIR})
-    add_executable(fluidssimulator main.cpp)
+    add_executable(fluidssimulator main.c)  # use main.c here
     target_link_libraries(fluidssimulator PRIVATE ${SDL3_LIBRARY})
 
 else()
     # Linux/macOS find with pkg-config
     find_package(PkgConfig REQUIRED)
     pkg_check_modules(SDL3 REQUIRED IMPORTED_TARGET sdl3)
-    add_executable(fluidssimulator main.cpp)
+    add_executable(fluidssimulator main.c)  # use main.c here
     target_link_libraries(fluidssimulator PRIVATE PkgConfig::SDL3)
 endif()
 

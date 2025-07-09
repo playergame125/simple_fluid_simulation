@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /usr/sbin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /usr/sbin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation
+CMAKE_SOURCE_DIR = /home/matteo/proggetti_c++/simple_fluid_simulation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build
+CMAKE_BINARY_DIR = /home/matteo/proggetti_c++/simple_fluid_simulation/build
 
 # Utility rule file for run.
 
@@ -67,7 +67,7 @@ include CMakeFiles/run.dir/compiler_depend.make
 include CMakeFiles/run.dir/progress.make
 
 CMakeFiles/run: fluidssimulator
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running fluidssimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running fluidssimulator"
 	./fluidssimulator
 
 CMakeFiles/run.dir/codegen:
@@ -86,6 +86,6 @@ CMakeFiles/run.dir/clean:
 .PHONY : CMakeFiles/run.dir/clean
 
 CMakeFiles/run.dir/depend:
-	cd /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build/CMakeFiles/run.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/matteo/proggetti_c++/simple_fluid_simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteo/proggetti_c++/simple_fluid_simulation /home/matteo/proggetti_c++/simple_fluid_simulation /home/matteo/proggetti_c++/simple_fluid_simulation/build /home/matteo/proggetti_c++/simple_fluid_simulation/build /home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles/run.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/run.dir/depend
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/main.cpp" "CMakeFiles/fluidssimulator.dir/main.cpp.o" "gcc" "CMakeFiles/fluidssimulator.dir/main.cpp.o.d"
+  "/home/matteo/proggetti_c++/simple_fluid_simulation/main.c" "CMakeFiles/fluidssimulator.dir/main.c.o" "gcc" "CMakeFiles/fluidssimulator.dir/main.c.o.d"
   "" "fluidssimulator" "gcc" "CMakeFiles/fluidssimulator.dir/link.d"
   )
 

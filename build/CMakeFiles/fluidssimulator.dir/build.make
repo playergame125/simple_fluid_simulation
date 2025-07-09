@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /usr/sbin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /usr/sbin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation
+CMAKE_SOURCE_DIR = /home/matteo/proggetti_c++/simple_fluid_simulation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build
+CMAKE_BINARY_DIR = /home/matteo/proggetti_c++/simple_fluid_simulation/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fluidssimulator.dir/depend.make
@@ -72,33 +72,33 @@ include CMakeFiles/fluidssimulator.dir/flags.make
 CMakeFiles/fluidssimulator.dir/codegen:
 .PHONY : CMakeFiles/fluidssimulator.dir/codegen
 
-CMakeFiles/fluidssimulator.dir/main.cpp.o: CMakeFiles/fluidssimulator.dir/flags.make
-CMakeFiles/fluidssimulator.dir/main.cpp.o: /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/main.cpp
-CMakeFiles/fluidssimulator.dir/main.cpp.o: CMakeFiles/fluidssimulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fluidssimulator.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fluidssimulator.dir/main.cpp.o -MF CMakeFiles/fluidssimulator.dir/main.cpp.o.d -o CMakeFiles/fluidssimulator.dir/main.cpp.o -c /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/main.cpp
+CMakeFiles/fluidssimulator.dir/main.c.o: CMakeFiles/fluidssimulator.dir/flags.make
+CMakeFiles/fluidssimulator.dir/main.c.o: /home/matteo/proggetti_c++/simple_fluid_simulation/main.c
+CMakeFiles/fluidssimulator.dir/main.c.o: CMakeFiles/fluidssimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fluidssimulator.dir/main.c.o"
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/fluidssimulator.dir/main.c.o -MF CMakeFiles/fluidssimulator.dir/main.c.o.d -o CMakeFiles/fluidssimulator.dir/main.c.o -c /home/matteo/proggetti_c++/simple_fluid_simulation/main.c
 
-CMakeFiles/fluidssimulator.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fluidssimulator.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/main.cpp > CMakeFiles/fluidssimulator.dir/main.cpp.i
+CMakeFiles/fluidssimulator.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/fluidssimulator.dir/main.c.i"
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matteo/proggetti_c++/simple_fluid_simulation/main.c > CMakeFiles/fluidssimulator.dir/main.c.i
 
-CMakeFiles/fluidssimulator.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fluidssimulator.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/main.cpp -o CMakeFiles/fluidssimulator.dir/main.cpp.s
+CMakeFiles/fluidssimulator.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/fluidssimulator.dir/main.c.s"
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matteo/proggetti_c++/simple_fluid_simulation/main.c -o CMakeFiles/fluidssimulator.dir/main.c.s
 
 # Object files for target fluidssimulator
 fluidssimulator_OBJECTS = \
-"CMakeFiles/fluidssimulator.dir/main.cpp.o"
+"CMakeFiles/fluidssimulator.dir/main.c.o"
 
 # External object files for target fluidssimulator
 fluidssimulator_EXTERNAL_OBJECTS =
 
-fluidssimulator: CMakeFiles/fluidssimulator.dir/main.cpp.o
+fluidssimulator: CMakeFiles/fluidssimulator.dir/main.c.o
 fluidssimulator: CMakeFiles/fluidssimulator.dir/build.make
 fluidssimulator: CMakeFiles/fluidssimulator.dir/compiler_depend.ts
 fluidssimulator: /usr/lib/libSDL3.so
 fluidssimulator: CMakeFiles/fluidssimulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable fluidssimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable fluidssimulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fluidssimulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/fluidssimulator.dir/clean:
 .PHONY : CMakeFiles/fluidssimulator.dir/clean
 
 CMakeFiles/fluidssimulator.dir/depend:
-	cd /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build/CMakeFiles/fluidssimulator.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/matteo/proggetti_c++/simple_fluid_simulation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matteo/proggetti_c++/simple_fluid_simulation /home/matteo/proggetti_c++/simple_fluid_simulation /home/matteo/proggetti_c++/simple_fluid_simulation/build /home/matteo/proggetti_c++/simple_fluid_simulation/build /home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles/fluidssimulator.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/fluidssimulator.dir/depend
 

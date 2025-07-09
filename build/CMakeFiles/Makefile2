@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /usr/sbin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /usr/sbin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation
+CMAKE_SOURCE_DIR = /home/matteo/proggetti_c++/simple_fluid_simulation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build
+CMAKE_BINARY_DIR = /home/matteo/proggetti_c++/simple_fluid_simulation/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -86,14 +86,14 @@ clean: CMakeFiles/run.dir/clean
 CMakeFiles/fluidssimulator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluidssimulator.dir/build.make CMakeFiles/fluidssimulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluidssimulator.dir/build.make CMakeFiles/fluidssimulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build/CMakeFiles --progress-num=1,2 "Built target fluidssimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles --progress-num=1,2 "Built target fluidssimulator"
 .PHONY : CMakeFiles/fluidssimulator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fluidssimulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fluidssimulator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles 0
 .PHONY : CMakeFiles/fluidssimulator.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ fluidssimulator: CMakeFiles/fluidssimulator.dir/rule
 # codegen rule for target.
 CMakeFiles/fluidssimulator.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fluidssimulator.dir/build.make CMakeFiles/fluidssimulator.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build/CMakeFiles --progress-num=1,2 "Finished codegen for target fluidssimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles --progress-num=1,2 "Finished codegen for target fluidssimulator"
 .PHONY : CMakeFiles/fluidssimulator.dir/codegen
 
 # clean rule for target.
@@ -118,14 +118,14 @@ CMakeFiles/fluidssimulator.dir/clean:
 CMakeFiles/run.dir/all: CMakeFiles/fluidssimulator.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build/CMakeFiles --progress-num=3 "Built target run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles --progress-num=3 "Built target run"
 .PHONY : CMakeFiles/run.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles 0
 .PHONY : CMakeFiles/run.dir/rule
 
 # Convenience name for target.
@@ -135,7 +135,7 @@ run: CMakeFiles/run.dir/rule
 # codegen rule for target.
 CMakeFiles/run.dir/codegen: CMakeFiles/fluidssimulator.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/playergame125/Desktop/progetti/c++/simple_fluid_simulation/build/CMakeFiles --progress-num=3 "Finished codegen for target run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles --progress-num=3 "Finished codegen for target run"
 .PHONY : CMakeFiles/run.dir/codegen
 
 # clean rule for target.

@@ -1,8 +1,8 @@
+#include <SDL3/SDL_stdinc.h>
 #include <SDL3/SDL_video.h>
-#include <iostream>
 #include <SDL3/SDL.h>
-#include <string>
-
+#include <stdint.h>
+#include <stdio.h>
 
 
 
@@ -14,7 +14,7 @@
 #define FPS_CAP 80
 
 SDL_Event GlobalEvent;
-auto* keystates=SDL_GetKeyboardState(NULL);
+const bool* keystates;
 //only initialization stuff
 bool initWindow(SDL_Window** window);
 bool initRenderer(SDL_Renderer** renderer,SDL_Window** window);
@@ -35,11 +35,12 @@ void hasQuit(bool* check){
 
 }
 void initall(SDL_Window** window,SDL_Renderer** renderer){
-    if(!initWindow(window)){
-        std::cout<<"\n failde to initi window";
+keystates=SDL_GetKeyboardState(NULL);
+  if(!initWindow(window)){
+	printf("\n failde to initi window");
     }
     if(!initRenderer(renderer,window)){
-        std::cout<<"\n failde to initi renderer";
+        printf("\n failde to initi renderer");
     } 
 }
 
@@ -105,8 +106,7 @@ int main(int argc, char* argv[]){
     int frameCount = 0;
     float fps = 0.0f;
     Uint64 fpsTimer = SDL_GetTicks();
-    std::cout << "Type of keystates: " << typeid(keystates).name() << std::endl;
-
+    printf("Type of keystates::");
     while(running){
         last = now;
         now = SDL_GetTicks();
@@ -116,7 +116,7 @@ int main(int argc, char* argv[]){
 
         if (now - fpsTimer >= 1000) { // 1 second passed
             fps = frameCount * 1000.0f / (now - fpsTimer);
-            std::cout << "FPS: " << (int)fps << std::endl;
+	    printf("FPS:%i ",(int)fps );
 
             fpsTimer = now;
             frameCount = 0;
