@@ -12,7 +12,7 @@
 #define SCALE_Y 1
 #define numparticles 500
 #define FPS_CAP 80
-
+//se vedi questo tutto funziona
 SDL_Event GlobalEvent;
 const bool* keystates;
 //only initialization stuff
