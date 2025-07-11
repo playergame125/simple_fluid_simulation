@@ -1,1 +1,0 @@
-/usr/sbin/cc -Wl,--dependency-file=CMakeFiles/fluidssimulator.dir/link.d CMakeFiles/fluidssimulator.dir/main.c.o -o fluidssimulator  /usr/lib/libSDL3.so

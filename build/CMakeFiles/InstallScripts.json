@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/matteo/proggetti_c++/simple_fluid_simulation/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

@@ -1,4 +1,0 @@
-/home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles/fluidssimulator.dir
-/home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles/run.dir
-/home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles/edit_cache.dir
-/home/matteo/proggetti_c++/simple_fluid_simulation/build/CMakeFiles/rebuild_cache.dir
